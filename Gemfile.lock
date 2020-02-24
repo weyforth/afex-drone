@@ -51,7 +51,7 @@ GEM
       net-ssh (>= 2.6.5)
     net-ssh (2.8.0)
     nokogiri (1.5.10)
-    rake (10.1.1)
+    rake (13.0.1)
     rbvmomi (1.8.1)
       builder
       nokogiri (>= 1.4.1)
@@ -84,6 +84,9 @@ DEPENDENCIES
   beaker
   beaker-librarian
   beaker-rspec
-  rake
+  rake (>= 12.3.3)
   serverspec
   specinfra
+
+BUNDLED WITH
+   1.17.3
