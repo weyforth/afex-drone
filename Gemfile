@@ -5,6 +5,6 @@ group :test do
 	gem 'beaker-rspec'
 	gem 'serverspec'
 	gem 'specinfra'
-	gem 'rake'
+	gem 'rake', '>= 12.3.3'
 	gem 'beaker-librarian'
 end
